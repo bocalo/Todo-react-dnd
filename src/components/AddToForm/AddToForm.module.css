@@ -1,0 +1,18 @@
+.add_todo {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.add_todo input {
+	margin-right: 1rem;
+	padding: 0.5rem 2rem;
+}
+
+.add_todo button {
+	padding: 0.5rem 2rem;
+	background: #9c173b;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+}

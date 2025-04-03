@@ -1,0 +1,61 @@
+.container {
+	border: 1px solid #000;
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.columns {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	align-items: start;
+	gap: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.container h1 {
+	color: #4287f5;
+}
+
+.input_group {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.input_group input {
+	flex: 1;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.add_btn {
+	padding: 8px 16px;
+	background: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.status_cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+@media (max-width: 768px) {
+	.columns {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* .status_cards {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+	margin-top: 2rem;
+} */
